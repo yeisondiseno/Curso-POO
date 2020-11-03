@@ -9,3 +9,14 @@ var car = new Car(
 
 car.passenger = 4;
 car.printDataCar();
+
+var uberx = new UberX(
+    "RTD456",
+    new Account( "Carlos Salazar",
+    "258963969" ),
+    "Chevrolet",
+    "Spark"
+);
+
+uberx.passenger = 4;
+uberx.printDataCar();
