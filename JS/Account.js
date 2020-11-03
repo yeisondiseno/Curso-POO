@@ -1,6 +1,13 @@
-function Account() {
-    this.id;
-    this.name;
-    this.document;
-    this.password;
+class Account{
+    id;
+    name;
+    document;
+    password;
+
+    constructor ( name, document ) {
+        this.id;
+        this.name = name;
+        this.document = document;
+        this.password;
+    }
 }
